@@ -160,3 +160,6 @@ module.exports.html=function(elements,options){
     }
     return text.join('');
 }
+
+module.exports.text2html=text2html;
+module.exports.getAttribute=createAttribute;
